@@ -1,0 +1,141 @@
+[
+    {
+        "id": 1,
+        "title": "Nike Air Max 97",
+        "image": "jordan.png",
+        "price": 4599,
+        "description": "Stylish and comfortable sneakers with iconic design."
+    },
+    {
+        "id": 2,
+        "title": "Adidas Ultraboost 22",
+        "image": "jordan.png",
+        "price": 4999,
+        "description": "High-performance running shoes with excellent cushioning."
+    },
+    {
+        "id": 3,
+        "title": "Puma RS-X",
+        "image": "jordan.png",
+        "price": 3799,
+        "description": "Bold and retro-inspired sneakers for everyday wear."
+    },
+    {
+        "id": 4,
+        "title": "New Balance 574",
+        "image": "jordan.png",
+        "price": 3299,
+        "description": "Classic and versatile sneakers with premium materials."
+    },
+    {
+        "id": 5,
+        "title": "Converse Chuck Taylor All Star",
+        "image": "jordan.png",
+        "description": "Timeless high-top sneakers for any casual outfit."
+    },
+    {
+        "id": 6,
+        "title": "Vans Old Skool",
+        "image": "jordan.png",
+        "price": 2999,
+        "description": "Skate-inspired sneakers with a durable design."
+    },
+    {
+        "id": 7,
+        "title": "Reebok Classic Leather",
+        "image": "jordan.png",
+        "price": 3199,
+        "description": "Soft leather sneakers with a sleek, minimalist style."
+    },
+    {
+        "id": 8,
+        "title": "Asics Gel-Kayano 28",
+        "image": "jordan.png",
+        "price": 5399,
+        "description": "High-performance running shoes with advanced stability."
+    },
+    {
+        "id": 9,
+        "title": "Nike Jordan 1",
+        "image": "jordan.png",
+        "price": 5999,
+        "description": "Iconic basketball sneakers with premium craftsmanship."
+    },
+    {
+        "id": 10,
+        "title": "Saucony Shadow 5000",
+        "image": "jordan.png",
+        "price": 3499,
+        "description": "Retro running shoes with excellent comfort and durability."
+    },
+    {
+        "id": 11,
+        "title": "Fila Disruptor II",
+        "image": "jordan.png",
+        "price": 2899,
+        "description": "Chunky sneakers with a bold, modern aesthetic."
+    },
+    {
+        "id": 12,
+        "title": "Under Armour HOVR Phantom 3",
+        "image": "jordan.png",
+        "price": 4599,
+        "description": "Lightweight and comfortable sneakers for intense workouts."
+    },
+    {
+        "id": 13,
+        "title": "Nike Dunk Low",
+        "image": "jordan.png",
+        "price": 4399,
+        "description": "Stylish low-top sneakers with a classic basketball look."
+    },
+    {
+        "id": 14,
+        "title": "Adidas Stan Smith",
+        "image": "jordan.png",
+        "price": 3499,
+        "description": "Clean and iconic sneakers for everyday wear."
+    },
+    {
+        "id": 15,
+        "title": "Hoka One One Clifton 8",
+        "image": "jordan.png",
+        "price": 5299,
+        "description": "High-cushion running shoes for long-distance comfort."
+    },
+    {
+        "id": 16,
+        "title": "Timberland 6-Inch Premium Boots",
+        "image": "jordan.png",
+        "price": 5999,
+        "description": "Rugged and stylish boots for all-weather conditions."
+    },
+    {
+        "id": 17,
+        "title": "Merrell Moab 3",
+        "image": "jordan.png",
+        "price": 4599,
+        "description": "Durable hiking shoes with excellent grip and comfort."
+    },
+    {
+        "id": 18,
+        "title": "Birkenstock Arizona",
+        "image": "jordan.png",
+        "price": 2599,
+        "description": "Classic sandals with adjustable straps and a comfortable fit."
+    },
+    {
+        "id": 19,
+        "title": "Crocs Classic Clog",
+        "image": "jordan.png",
+        "price": 1999,
+        "description": "Lightweight and water-friendly clogs for versatile use."
+    },
+    {
+        "id": 20,
+        "title": "Columbia Newton Ridge Plus",
+        "image": "jordan.png",
+        "price": 4699,
+        "description": "Durable waterproof hiking boots for outdoor adventures."
+    }
+]

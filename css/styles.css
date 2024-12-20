@@ -1,0 +1,117 @@
+body{
+   
+    
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+
+img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    flex-wrap: wrap;
+    background-color: gray;
+    border-radius: 3px;
+    height: 100%;
+    width:100% ;
+}
+    
+    
+    .products-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .about-us-page{
+        display: none;
+        
+        flex-direction: column;
+        text-align: center;
+        
+        font-family: "Roboto Condensed", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    .about-us-img img{
+    
+        width: 450px;
+        height: 350px;
+    }
+
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+      
+     .swiper img{
+        width: 100%;
+        height: 100%;
+    }
+     .about-us-text{
+        display: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+
+    .button {
+        position: relative;
+        overflow: hidden;
+        height: 2rem;
+        padding: 0 2rem;
+        border-radius: 1.5rem;
+        background: #3d3a4e;
+        background-size: 400%;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .button:hover::before {
+        transform: scaleX(1);
+      }
+      
+      .button-content {
+        position: relative;
+        z-index: 1;
+      }
+      
+      .button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        width: 100%;
+        height: inherit;
+        border-radius: inherit;
+        background: linear-gradient(
+          82.3deg,
+          rgba(150, 93, 233, 1) 10.8%,
+          rgba(99, 88, 238, 1) 94.3%
+        );
+        transition: all 0.475s;
+      }
+
+
+
+
+
+    

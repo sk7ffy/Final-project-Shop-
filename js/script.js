@@ -5,11 +5,6 @@ let aboutUsText = document.querySelector('.about-us-text')
 let productsList = document.querySelector('.products-list')
 
 
-aboutUsButton.addEventListener('click', function () {
-    mainPage.style.display = 'none'
-    aboutUsPage.style.display = 'flex';
-    aboutUsText.style.display = 'flex'
-});
 
 
 
@@ -135,10 +130,14 @@ function getCartItem(product){
 }
 
 let cart_list = document.querySelector(".сart-list")
-cart_list.innerHTML =''
 
-for (let key in cart.items){
-    cart_list.innerHTML+= getCartItem(cart.items[key])
+if (cart_list){
+    cart_list.innerHTML =''
+
+    for (let key in cart.items){
+        cart_list.innerHTML+= getCartItem(cart.items[key])
+    }
+    
 }
 
 

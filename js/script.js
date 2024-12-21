@@ -134,17 +134,29 @@ function getCartItem(product){
 
 let cart_list = document.querySelector(".сart-list")
 
+let cart_buttons = document.querySelector(".cart-buttons")
+
 if (cart_list){
     cart_list.innerHTML =''
 
     for (let key in cart.items){
         cart_list.innerHTML+= getCartItem(cart.items[key])
     }
+    if (Object.keys(cart.items).length>0){
+        cart_buttons.classList.remove('d-none')
+    }
+
     
 }
 
 
+let cart_clean_btn = document.querySelector(".cart-clean")
 
+cart_clean_btn?.addEventListener("click", function(event){
+    document.cookie = `cart=''; max-age=0; path=/`
+    cart_list.innerHTML = 'У кошику немає товарів'
+    cart_buttons.classList.add('d-none')
+})
 
 
 const swiper = new Swiper('.swiper', {
@@ -172,3 +184,20 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     }, */
 });
+
+
+
+const exampleModal = new bootstrap.Modal('#exampleModal', {
+
+    keyboard: false
+  })
+
+
+let submitOrder = document.querySelector('#submit-order')
+if (submitOrder){
+    submitOrder.addEventListener('click',function(){
+        document.cookie = `cart=''; max-age=0; path=/`
+        exampleModal.show()
+
+    })
+}

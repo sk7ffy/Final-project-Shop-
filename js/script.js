@@ -3,6 +3,9 @@ let aboutUsButton = document.querySelector('#about-us-btn');
 let mainPage = document.querySelector('.main-page')
 let aboutUsText = document.querySelector('.about-us-text')
 let productsList = document.querySelector('.products-list')
+let switchThemeBtn = document.querySelector('.switch-theme-btn')
+
+
 
 
 

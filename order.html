@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Кошик</title>
+    <title>Order</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -56,6 +56,18 @@
                         <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Search">
                         <button class="btn btn-outline-light" type="submit">Пошук</button>
                     </form>
+                    <a href="cart.html" class="btn btn-light ms-auto my-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-cart">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                          <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                          <path d="M17 17h-11v-14h-2" />
+                          <path d="M6 5l14 1l-1 7h-13" /><a href="cart.html" class="btn btn-light ms-auto my-2">
+            
+                        </svg>
+                        Кошик</a>
 
                     
                 </div>
@@ -63,34 +75,48 @@
         </nav>
     </header>
     <main class="container">
-        <h1 class="my-4 text-center  ">Кошик товарів</h1>
+        <h1 class="my-4 text-center  ">Оформлення замовлення</h1>
 
-        <div class="сart-list">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ПІБ">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Номер тел.</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="+380">
+          </div>
+          
+          <select class="form-select mb-3" aria-label="Large select example">
+            <option selected>Виберіть службу доставки</option>
+            <option value="1">Нова пошта</option>
+            <option value="2">Укрпошта</option>
+            <option value="3">MeestExpress</option>
+          </select>
+
+          <select class="form-select mb-3" aria-label="Large select example">
+            <option selected>Оберіть спосіб доставки</option>
+            <option value="1">Кур'єром на адресу</option>
+            <option value="2">На відділення почти</option>
             
+          </select>
+
+
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Коментар до замовлення</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
 
-        <a href="order.html" class="btn btn-outline-dark ms-auto my-2">
-            <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M12 19h-6a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5" />
-            <path d="M3 10h18" />
-            <path d="M16 19h6" />
-            <path d="M19 16l3 3l-3 3" />
-            <path d="M7.005 15h.005" />
-            <path d="M11 15h2" />
-          </svg>
-            Придбати</a>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+            <label class="form-check-label" for="flexCheckDefault">
+              Не передзвонювати
+            </label>
+          </div>
+          
 
-
+         
     
     
     
